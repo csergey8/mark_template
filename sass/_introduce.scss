@@ -1,0 +1,73 @@
+.introduce {
+    height: 100vh;
+    background-color: $color-grey-light;
+
+
+    &__container {
+        display: flex;
+        //color: red;
+    }
+
+    &__block--img {
+        position: relative;
+        width: 50%;
+        height: 100vh;
+        /*
+        background-image: url("../img/liberty.png");
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        */
+    }
+
+    &__img {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 60%;
+        margin-right: 3rem;
+
+    }
+
+    &__block {
+        max-width: 50%;
+
+
+        i {
+            position: absolute;
+            left: 4.5rem;
+            top: 2.5rem;
+        }
+    }
+
+    &__title {
+        margin-top: 18rem;
+        padding: 5px;
+        color: $color-dark;
+
+        font-family: "Caladea";
+        font-size: 3.6rem;
+        font-weight: bold;
+
+        span {
+            color: $color-red;
+            text-decoration: underline;
+        }
+    }
+
+    &__text {
+        padding: 2rem;
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding-left: 7rem;
+        color: $color-grey;
+
+    }
+
+    &__title--secondary {
+        font-size: 1.5rem;
+        padding: 2rem;
+        padding-left: 7rem;
+        color: $color-red;
+        position: relative;
+    }
+}
