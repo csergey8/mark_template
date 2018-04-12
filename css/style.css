@@ -85,8 +85,10 @@ body {
       top: 2.5rem; }
   .introduce__title {
     margin-top: 18rem;
+    margin-bottom: 6rem;
     padding: 5px;
     color: #333333;
+    padding-left: -1rem;
     font-family: "Caladea";
     font-size: 3.6rem;
     font-weight: bold; }
@@ -94,14 +96,75 @@ body {
       color: #d63c37;
       text-decoration: underline; }
   .introduce__text {
-    padding: 2rem;
+    padding: 0rem;
     font-size: 1.5rem;
     line-height: 3rem;
     padding-left: 7rem;
-    color: #666666; }
+    color: #666666;
+    letter-spacing: 2px; }
   .introduce__title--secondary {
     font-size: 1.5rem;
-    padding: 2rem;
+    padding-top: 2rem;
     padding-left: 7rem;
     color: #d63c37;
-    position: relative; }
+    position: relative;
+    letter-spacing: 2px; }
+
+.description {
+  height: 100vh;
+  background-color: #d63c37; }
+  .description__container {
+    display: flex;
+    justify-content: center; }
+  .description__title {
+    font-family: "Caladea";
+    font-size: 3.6rem;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #fff;
+    padding-top: 18rem;
+    text-align: center;
+    padding-left: 18rem; }
+  .description__text-block-1, .description__text-block-2 {
+    padding: 5rem;
+    height: 40rem;
+    text-align: right; }
+  .description__box {
+    width: 30rem; }
+    .description__box--title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #333333;
+      padding: 2rem 0;
+      position: relative; }
+      .description__box--title i {
+        color: #eee;
+        font-size: 3rem;
+        position: absolute;
+        right: -4.3rem;
+        padding: 3px; }
+    .description__box--text {
+      font-size: 1.2rem;
+      color: #333333;
+      letter-spacing: 2px; }
+
+.footer {
+  height: 15rem;
+  background-color: #333333;
+  color: #eee;
+  font-size: 1.4rem; }
+  .footer__container {
+    text-align: center; }
+  .footer__navigation {
+    list-style: none;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block; }
+    .footer__navigation li {
+      float: left;
+      text-transform: uppercase;
+      padding: 2rem;
+      transition: all .4s; }
+    .footer__navigation li:hover,
+    .footer__navigation li:active {
+      color: #d63c37; }

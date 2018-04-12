@@ -1,0 +1,59 @@
+.description {
+    height: 100vh;
+    background-color: $color-red;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__title {
+        font-family: "Caladea";
+        font-size: 3.6rem;
+        font-weight: bold;
+        text-decoration: underline;
+        color: #fff;
+
+       
+        
+        padding-top: 18rem;
+        text-align: center;
+        padding-left: 18rem;
+    }
+
+    &__text-block-1,
+    &__text-block-2 {
+        //display: flex;
+        padding: 5rem;
+        height: 40rem;
+        text-align: right;
+
+    }
+
+    &__box {
+        width: 30rem;
+        
+
+        &--title {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: $color-dark;
+            padding: 2rem 0;
+            position: relative;
+
+            i {
+                color: #eee;
+                font-size: 3rem;
+                position: absolute;
+                right: -4.3rem;
+                padding: 3px;
+            }
+        }
+
+        &--text {
+            font-size: 1.2rem;
+            color: $color-dark;
+            letter-spacing: 2px;
+        }
+    }
+}

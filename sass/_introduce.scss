@@ -41,8 +41,10 @@
 
     &__title {
         margin-top: 18rem;
+        margin-bottom: 6rem;
         padding: 5px;
         color: $color-dark;
+        padding-left: -1rem;
 
         font-family: "Caladea";
         font-size: 3.6rem;
@@ -55,19 +57,21 @@
     }
 
     &__text {
-        padding: 2rem;
+        padding: 0rem;
         font-size: 1.5rem;
         line-height: 3rem;
         padding-left: 7rem;
         color: $color-grey;
+        letter-spacing: 2px;
 
     }
 
     &__title--secondary {
         font-size: 1.5rem;
-        padding: 2rem;
+        padding-top: 2rem;
         padding-left: 7rem;
         color: $color-red;
         position: relative;
+        letter-spacing: 2px;
     }
 }
