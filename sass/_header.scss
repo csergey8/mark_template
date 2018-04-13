@@ -25,6 +25,7 @@
         font-size: 4.8rem;
         color: $color-dark;
         width: 117rem;
+        animation: moveInBottom 1s linear;
     }
 
     &__text {
@@ -32,5 +33,6 @@
         max-width: 117rem;
         margin: 0 auto;
         font-size: 1.8rem;
+        animation: moveInBottom 1s linear;
     }
 }
